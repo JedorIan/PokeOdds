@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Generation 9 Odds</title>
+  <link rel="stylesheet" href="scarletviolet.css">
+  <link rel="stylesheet" href="../../allstyles.css">
+</head>
+<body>
+  <div id="svmaincont">
+    <a href="../../mainscreen.html"><h6>Back</h6></a>
+
+    <div class="gen9">
+      <img src="../../images/svlogo.png" class="logoimages">
+      <div id="oddssv">
+
+        <!-- Shiny Charm -->
+        <div id="shinyCharmBlock" class="button-group">
+          <img src="../../images/shinycharm.png" alt="Shiny Charm">
+          <p>Shiny Charm</p>
+          <button data-value="0">No</button>
+          <button data-value="2" id="shinyCharmYes">Yes</button>
+        </div>
+
+        <!-- Sparkling Power -->
+        <div id="sparklingPowerBlock" class="button-group">
+          <img src="../../images/sparklingpower.png" alt="Sparkling Power">
+          <p>Sparkling Power Level:</p>
+          <button data-value="0">None</button>
+          <button data-value="1">Level 1</button>
+          <button data-value="2">Level 2</button>
+          <button data-value="3">Level 3</button>
+        </div>
+
+        <!-- Outbreak -->
+        <div id="outbreakBlock" class="button-group">
+          <img src="../../images/outbreak.png">
+          <p>Outbreak:</p>
+          <button data-value="0">0</button>
+          <button data-value="1">1</button>
+          <button data-value="2">2</button>
+          <button data-value="3">3</button>
+        </div>
+
+        <!-- Mark Charm -->
+        <div id="markCharmBlock" class="button-group">
+          <img src="../../images/markcharm.png" alt="Mark Charm">
+          <p>Mark Charm:</p>
+          <button data-value="1">No</button>
+          <button data-value="3" id="markCharmYes">Yes</button>
+        </div>
+
+        <!-- Specific Mark -->
+        <div id="specificMarkBlock" class="button-group">
+          <img src="../../images/specificmark.png">
+          <p>Specific Mark:</p>
+          <button data-value="1">None</button>
+          <button data-value="0.001">Rare Mark</button>
+          <button data-value="0.02">Uncommon Mark</button>
+          <button data-value="0.01">Any Personality Mark</button>
+          <button data-value="0.0003571429">Specific Personality Mark</button>
+          <button data-value="0.02">Weather Mark</button>
+          <button data-value="0.02">Time Mark</button>
+         </div>
+
+        <!-- Title Power -->
+        <div id="titlePowerBlock" class="button-group">
+          <img src="../../images/titleicon.png" alt="Title Power">
+          <p>Title Power:</p>
+          <button data-value="0">None</button>
+          <button data-value="1">Level 1</button>
+          <button data-value="2">Level 2</button>
+          <button data-value="3">Level 3</button>
+        </div>
+        
+        <!-- Masuda Method -->
+        <div id="masudaMethodBlock" class="button-group">
+          <img src="../../images/egg.png" alt="Masuda Method">
+          <p>Masuda Method:</p>
+          <button data-value="0">No</button>
+          <button data-value="1">Yes</button>
+        </div>
+
+        <!-- Gender Ratio -->
+        <div id="genderRatioBlock" class="button-group">
+          <img src="../../images/gender.png" alt="Gender Ratio">
+          <p>Gender Ratio:</p>
+          <button data-value="1">None</button>
+          <button data-value="0.125">0.125</button>
+          <button data-value="0.25">0.25</button>
+          <button data-value="0.5">0.5</button>
+          <button data-value="0.75">0.75</button>
+          <button data-value="0.875">0.875</button>
+        </div>
+
+         <!-- Size Mark -->
+       <div id="sizeMarkBlock" class="button-group">
+        <img src="../../images/sizemark.png">
+        <p>Size Mark:</p>
+        <button data-value="1">None</button>
+        <button data-value="0.000060562">Yes: no boost added</button>
+        <button data-value="0.0078125">Level 1</button>
+        <button data-value="0.0104166667">Level 2</button>
+        <button data-value="0.015625">Level 3</button>
+        </div>
+       
+      </div>
+
+      <p>Odds are: <span id="results">0</span></p>
+     
+    </div>
+  </div>
+
+  <script src="scarletviolet.js"></script>
+</body>
+</html>
