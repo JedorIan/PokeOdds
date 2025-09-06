@@ -1,0 +1,25 @@
+body{
+ background-color: black;
+color: white;
+display: flex;
+justify-content: center;
+vertical-align: center;
+align-items: center;
+padding: 10px;
+}
+
+.mainscreen{
+font-family: "Times New Roman", sans;
+ color: white;
+ display: flex;
+justify-content: center;
+align-content: center;
+text-align: center;
+font-size: 100px;
+}
+
+#scarletviolet{
+border: solid 5px white;
+border-radius: 15px;
+background: linear-gradient(to right, red, purple);
+}
