@@ -7,7 +7,7 @@ align-content: center;
 background-color: black;
 }
 
-#oddssv{
+#swshodds{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: auto auto;
@@ -22,11 +22,6 @@ border: solid 5px white;
 border-radius: 20px;
 background-image: linear-gradient( to right, #00a1ea, red);
 width: 80%;
-}
-
-#swshtitle{
-font-size: auto;
-text-decoration: underline;
 }
 
 .button-group button {

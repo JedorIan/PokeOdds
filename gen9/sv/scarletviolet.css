@@ -24,11 +24,6 @@ background-image: linear-gradient( to right, red, purple);
 width: 80%;
 }
 
-#svtitle{
-font-size: auto;
-text-decoration: underline;
-}
-
 .button-group button {
       margin: 5px;
       padding: 10px 15px;
