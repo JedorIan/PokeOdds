@@ -48,7 +48,7 @@ function setupExclusiveButtons(blockId, defaultIndex = 0) {
                   * sizeMarkValue;
 
       
-      total = total;
+      total = total * 100;
       document.getElementById("results").textContent = total.toFixed(15) + "%";
     }
 

@@ -50,7 +50,7 @@ function setupExclusiveButtons(blockId, defaultIndex = 0) {
                   * bsmrValue;
 
       
-      total = total;
+      total = total * 100;
       document.getElementById("results").textContent = total.toFixed(15) + "%";
     }
 
