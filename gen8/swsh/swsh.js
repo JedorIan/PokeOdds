@@ -42,7 +42,7 @@ function setupExclusiveButtons(blockId, defaultIndex = 0) {
       const bsmrValue = getSelectedValue("bsmrSparkleBlock");
 
       
-      let total = ((1 * (shinyCharmValue + brilliantValue + masudaValue)) / 4096) 
+      let total = ((1 + (shinyCharmValue + brilliantValue + masudaValue)) / 4096) 
                   * genderRatioValue 
                   * dynamaxValue
                   * (markCharmValue * specificMarkValue)
