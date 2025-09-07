@@ -32,20 +32,22 @@ function setupExclusiveButtons(blockId, defaultIndex = 0) {
       });
 
       const shinyCharmValue = getSelectedValue("shinyCharmBlock");
-      const sparklingPowerValue = getSelectedValue("sparklingPowerBlock");
+      const dynamaxValue = getSelectedValue("dynamaxAdvBlock");
       const masudaValue = getSelectedValue("masudaMethodBlock");
-      const outbreakValue = getSelectedValue("outbreakBlock");
+      const brilliantValue = getSelectedValue("shinyBrilliantBlock");
       const genderRatioValue = getSelectedValue("genderRatioBlock");
       const markCharmValue = getSelectedValue("markCharmBlock");
-      const titlePowerValue = getSelectedValue("titlePowerBlock");
+      const randomValue = getSelectedValue("randomSparkleBlock");
       const specificMarkValue = getSelectedValue("specificMarkBlock");
-      const sizeMarkValue = getSelectedValue("sizeMarkBlock")
+      const bsmrValue = getSelectedValue("bsmrSparkleBlock")
 
       
-      let total = ((1 + shinyCharmValue + outbreakValue + sparklingPowerValue + masudaValue) / 4096) 
+      let total = (1 + (shinyCharmValue + brilliantValue + masudaValue) / 4096) 
                   * genderRatioValue 
-                  * ((markCharmValue + titlePowerValue) * specificMarkValue)
-                  * sizeMarkValue;
+                  * dynamaxValue
+                  * ((markCharmValue) * specificMarkValue)
+                  * randomValue
+                  * bsmrValue;
 
       
       total = total;
