@@ -39,7 +39,7 @@ function setupExclusiveButtons(blockId, defaultIndex = 0) {
       const markCharmValue = getSelectedValue("markCharmBlock");
       const randomValue = getSelectedValue("randomSparkleBlock");
       const specificMarkValue = getSelectedValue("specificMarkBlock");
-      const bsmrValue = getSelectedValue("bsmrSparkleBlock")
+      const bsmrValue = getSelectedValue("bsmrSparkleBlock");
 
       
       let total = (1 + (shinyCharmValue + brilliantValue + masudaValue) / 4096) 
