@@ -1,8 +1,12 @@
 # PokeOdds
 A Pokémon odds calculator
 
-This is a project I am making in my free time and will be updated as I get done with sections of the website
+This project is a free time project and will be periodically update over time.
 
-It is used to calculate how rare your pokemon is and the odds of finding another like it
+I plan to have it include any generation with shinies, but that will take time.
 
-Not all selections are possible as in breeding a pokemon with the rare mark
+The base odds shown as the base 1 in 4096 or 1 in 8192.
+
+Not all selections are possible, such as breeding a shiny with the Rare Mark. What is shown is what would be possible.
+
+NO DIRECT RECREATION OR COPY IS ALLOWED. But use it as a template if you want.
