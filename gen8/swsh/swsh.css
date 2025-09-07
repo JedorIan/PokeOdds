@@ -1,0 +1,53 @@
+body{
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+align-content: center;
+background-color: black;
+}
+
+#oddssv{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: auto auto;
+align-items: center;
+font-size: 25px;
+padding: 0;
+margin: 0;
+}
+
+#swshmaincont{
+border: solid 5px white;
+border-radius: 20px;
+background-image: linear-gradient( to right, #00a1ea, red);
+width: 80%;
+}
+
+#swshtitle{
+font-size: auto;
+text-decoration: underline;
+}
+
+.button-group button {
+      margin: 5px;
+      padding: 10px 15px;
+      border: 2px solid #ccc;
+      border-radius: 6px;
+      background-color: #f8f8f8;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .button-group button:hover {
+      background-color: #eee;
+    }
+
+    .button-group button.selected {
+      background-color: #4da6ff;
+      color: white;
+      font-weight: bold;
+      border-color: #0077cc;
+      box-shadow: 0 0 6px rgba(0, 119, 204, 0.5);
+    }

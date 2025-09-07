@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SwSh Odds</title>
+  <link rel="stylesheet" href="swsh.css">
+  <link rel="stylesheet" href="../../allstyles.css">
+</head>
+<body>
+   <div id="swshmaincont">
+    <a href="../../mainscreen.html"><h6><--Back</h6></a>
+
+    <div class="gametitle">
+      <img src="../../images/swshlogo.png" class="logoimages">
+      <div id="swshodds">
+
+        <!-- Shiny Charm -->
+        <div id="shinyCharmBlock" class="button-group">
+          <img src="../../images/shinycharm.png" alt="Shiny Charm">
+          <p>Shiny Charm:</p>
+          <button data-value="0">No</button>
+          <button data-value="2" id="shinyCharmYes">Yes</button>
+        </div> <!-- Shiny Charm -->
+
+        <!-- Dynamax Adventures -->
+        <div id="dynamaxAdvBlock" class="button-group">
+         <img src="../../images/dynamax.png" alt="Dynamax Adventures">
+         <p>Dynamax Adventures:</p>
+         <button data-value="1">Not Applicable</button>
+         <button data-value="0.003333333">Yes</button>
+        </div><!-- Dynamax -->
+
+        <!-- Brilliant Pokemon -->
+        <div id="shinyBrilliantBlock" class="button-group">
+         <img src="../../images/shinybrilliant.png" alt="Brilliant Pokemon">
+         <p>Shiny Brilliant:</p>
+         <button data-value="0">Not applicable</button>
+         <button data-value="1">1 to 49 KOs</button>
+         <button data-value="2">50 to 99 KOs</button>
+         <button data-value="3">100 to 199 KOs</
+         <button data-value="4">200 to 299 KOs</button> 
+         <button data-value="5">300 to 499 KOs</button>
+         <button data-value="6">500+ KOs</button>
+        </div><!-- Brilliant -->
+          
+
+        <!-- RE Sparkle Type -->
+        <div id="randomSparkleBlock" class="button-group">
+         <img src="../../images/rsparkle.png" alt="Sparkle Type">
+         <p>Random Encounter Sparkle:</p>
+         <button data-value="1">Not applicable</button>
+         <button data-value="0.9997558594">Square Sparkle</button>
+         <button data-value="0.0002288818">Star Sparkle</button>
+        </div><!-- RE Sparkle>
+
+       <!-- BSMr Sparkle Type -->
+       <div id="bsmrSparkleBlock" class="button-group">
+        <img src="../../images/bsmrsparkle.png">
+        <p>Breed/Static/Max Raid Sparkle Type:</p>
+        <button data-value="1">Not Applicable</button>
+        <button data-value="0.9375">Star Sparkle</button>
+         <button data-value="0.0625">Square Sparkle</button>
+        </div><!-- BSMr -->
+
+        <br>
+
+        <!-- Mark Charm -->
+        <div id="markCharmBlock" class="button-group">
+          <img src="../../images/markcharm.png" alt="Mark Charm">
+          <p>Mark Charm:</p>
+          <button data-value="1">No</button>
+          <button data-value="3" id="markCharmYes">Yes</button>
+        </div><!-- Mark -->
+
+        <!-- Specific Mark -->
+        <div id="specificMarkBlock" class="button-group">
+          <img src="../../images/specificmark.png">
+          <p>Specific Mark:</p>
+          <button data-value="1">Not Applicable</button>
+          <button data-value="0.001">Rare Mark</button>
+          <button data-value="0.02">Uncommon Mark</button>
+          <button data-value="0.01">Any Personality Mark</button>
+          <button data-value="0.0003571429">Specific Personality Mark</button>
+          <button data-value="0.02">Weather Mark</button>
+          <button data-value="0.02">Time Mark</button>
+          <button data-valie="0.04">FishIng Mark</button>
+         </div><!-- Specific -->
+
+<br>
+
+        <!-- Masuda Method -->
+        <div id="masudaMethodBlock" class="button-group">
+          <img src="../../images/egg.png" alt="Masuda Method">
+          <p>Masuda Method:</p>
+          <button data-value="0">No</button>
+          <button data-value="1">Yes</button>
+        </div><!-- Masuda -->
+
+        <!-- Gender Ratio -->
+        <div id="genderRatioBlock" class="button-group">
+          <img src="../../images/gender.png" alt="Gender Ratio">
+          <p>Gender Ratio:</p>
+          <button data-value="1">None</button>
+          <button data-value="0.125">0.125</button>
+          <button data-value="0.25">0.25</button>
+          <button data-value="0.5">0.5</button>
+          <button data-value="0.75">0.75</button>
+          <button data-value="0.875">0.875</button>
+        </div><!--GR -->
+
+      </div> <!--Game Title -->
+
+      <p>Odds are: <span id="results"> 0 </span></p>
+     
+    </div> <!--SwSh Main Contain -->
+ 
+
+  <script src="swsh.js"></script>
+</body>
+</html>
