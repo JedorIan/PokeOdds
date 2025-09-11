@@ -44,7 +44,7 @@ function setupExclusiveButtons(blockId, defaultIndex = 0) {
       
       let total = ((1 + (shinyCharmValue + brilliantValue + masudaValue)) / 4096) 
                   * genderRatioValue 
-                  * (1+dynamaxValue)
+                  * dynamaxValue
                   * (markCharmValue * specificMarkValue)
                   * randomValue
                   * bsmrValue;
